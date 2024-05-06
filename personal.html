@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сервис заказа еды</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* Определение шрифтов */
+        @font-face {
+            font-family: 'Roboto';
+            src: url('Roboto-Flex.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Roboto';
+            src: url('Roboto-Bold.ttf') format('truetype');
+            font-weight: bold;
+            font-style: normal;
+        }
+    </style>
+</head>
+<body>
+    <!--start header-->
+    <header>
+        <a href="index.html">
+        <div class="logo">
+            <img src="images/miska.svg" alt="Логотип">
+        </div>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Диеты</a></li>
+                <li><a href="#">Доставка</a></li>
+                <li><a href="#">Калькулятор</a></li>
+                <li><a href="#">Как пользоваться</a></li>
+                <li><a class="btn" href="login.html">Войти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--end header-->
+    <div class="personal">
+        <h1>Введите свои данные</h1>
+        <form action="submit_data.php" method="post">
+          <div class="form-group">
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" name="age" placeholder="Введите свой возраст" required>
+          </div>
+          <div class="form-group">
+            <label for="weight">Вес:</label>
+            <input type="number" id="weight" name="weight" placeholder="Введите свой вес" required>
+          </div>
+          <div class="form-group">
+            <label for="activity">Физическая активность:</label>
+            <input type="text" id="activity" name="activity" placeholder="Введите ваш уровень активности">
+          </div>
+          <div class="form-group">
+            <label for="restrictions">Ограничения:</label>
+            <input type="text" id="restrictions" name="restrictions" placeholder="Введите ваши ограничения">
+          </div>
+          <div class="form-group">
+            <label for="goal">Цель диеты:</label>
+            <input type="text" id="goal" name="goal" placeholder="Введите вашу цель диеты">
+          </div>
+          <div class="btn-center">Записать</div>
+        </form>
+      </div>
+
+    <!--end offers-->
+</body>
+</html>

@@ -1,0 +1,401 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    background: -webkit-linear-gradient(left,#FABEBE, #FBF795);
+    font-size: 30;
+}
+
+.logo {
+    width: 50px; /* Задайте нужную ширину для вашего логотипа */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px; /* Размер шрифта для пунктов меню */
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #3E3E3E; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 30px 60px;
+    background-color: #BBA24F; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    margin-top: 70px;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #BBA24F; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    margin-top: 15px;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3e3e3e; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    margin-top: 15px;
+}
+
+.btn-center {
+    width: 30%;
+    padding: 10px;
+    background-color: #3e3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; /* Центрируем кнопку */
+    text-align: center;
+}
+
+/* Стили кнопки при наведении */
+.btn:hover {
+    background-color: #d27575; /* Цвет фона при наведении */
+}
+
+.btn1:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+
+.btn2:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+
+.btn3:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+.btn-center:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+
+.banner {
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	padding: 5% 0 0% 0;
+    margin-top: 10px;
+	min-height: 450px;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 100%; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование по горизонтали */
+}
+
+.banner-content h1 {
+    font-size: 64px;
+    color: #fff; /* Цвет текста заголовка */
+    margin-bottom: 15px;
+}
+
+.banner-content h2 {
+    font-size: 24px;
+    color: #fff; /* Цвет текста подзаголовка */
+    margin-top: 15px;
+}
+
+.intro_offer {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.offer1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.offer img {
+    max-width: 400px;
+}
+
+.offer1 img {
+    max-width: 400px;
+}
+
+.offer h1,
+.offer1 h1 {
+    margin: 0;
+    font-size: x-large;
+}
+.offer h2,
+.offer1 h2{
+    font-size: medium;
+    color: #606060;
+}
+
+.offer .button,
+.offer1 .button {
+    margin-top: 10px;
+}
+
+.offer, .offer1 {
+    display: flex;
+    align-items: center;
+}
+
+.offer .text, .offer1 .text {
+    flex: 1;
+    max-width: 200;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+
+.offer .image, .offer1 .image {
+    margin-left: 20px; /* Просто для отступа между изображением и текстом */
+
+}
+
+.offer1 {
+    display: flex;
+    align-items: center;
+}
+
+.offer1 .text {
+
+    margin-right: auto; 
+    order: 1;
+    text-align: right;
+}
+
+.offer1 .image {
+    order: 2; 
+    margin-left: auto; 
+    text-align: left;
+}
+
+.offer .text {
+
+
+    order: 1;
+    text-align: left;
+}
+
+.offer .image {
+    order: 2; 
+    margin-left: auto; 
+    text-align: right;
+}
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 250px)); /* Каждая колонка минимум 200px шириной */
+    gap: 20px; /* Пространство между блоками */
+    margin-left: 50;
+    margin-right: 50;
+}
+
+.partner {
+    border: 1px solid #ccc; /* Граница для блока */
+    padding: 20px; /* Отступы внутри блока */
+    text-align: center; /* Выравнивание текста по центру */
+    background: linear-gradient(#ececec, #fffefe);
+    border-radius: 30px;
+}
+
+.category, .button {
+    margin-top: 10px; /* Отступ между элементами в блоке */
+}
+
+
+.image1{
+    display: inline-block;
+    border-radius: 30%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+  }
+  .image1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+  .registr {
+    max-width: 400px;
+    margin: 50px auto; /* Центрируем контейнер по горизонтали и добавляем отступ сверху и снизу */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+/* Стили для заголовка */
+.registr h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стили для меток */
+.registr label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Стили для полей ввода */
+.registr input {
+    width: calc(100% - 22px); /* Вычитаем ширину бордера, чтобы сохранить общую ширину элемента 100% */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Стили для кнопки */
+.registr button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3E3E3E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registr button:hover {
+    background-color: #D27575;
+}
+
+/* Стили для текста после кнопки */
+.registr p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Стили для ссылок */
+.registr a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registr a:hover {
+    text-decoration: underline;
+}
+.personal {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.personal h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.personal .form-group {
+    margin-bottom: 20px;
+}
+
+.personal label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.personal input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Добавлен отступ между меткой и полем ввода */
+    
+}
+
+.personal .form-group:first-child input {
+    margin-top: 0; /* Убираем отступ у первого поля ввода */
+}
+
