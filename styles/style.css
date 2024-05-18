@@ -1,0 +1,851 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    background: -webkit-linear-gradient(left,#FABEBE, #FBF795);
+    font-size: 30;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #f8f8f8;
+    background: -webkit-linear-gradient(left,#FABEBE, #FBF795);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .logo img {
+    height: 40px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: 555555;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.zagolovok {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.logo {
+    width: 50px; /* Задайте нужную ширину для вашего логотипа */
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 25px; /* Размер шрифта для пунктов меню */
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+/* Кнопки */
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #3E3E3E; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 30px 60px;
+    background-color: #BBA24F; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    margin-top: 70px;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #BBA24F; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    margin-top: 15px;
+    max-width: 400px;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3e3e3e; /* Цвет фона */
+    color: white; /* Цвет текста */
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета фона при наведении */
+    margin-top: 15px;
+}
+
+.btn-center {
+    width: 30%;
+    padding: 10px;
+    background-color: #3e3e3e;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto; /* Центрируем кнопку */
+    text-align: center;
+}
+
+/* Стили кнопки при наведении */
+.btn:hover {
+    background-color: #d27575; /* Цвет фона при наведении */
+}
+
+.btn1:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+
+.btn2:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+
+.btn3:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+.btn-center:hover {
+    background-color: #813636; /* Цвет фона при наведении */
+}
+
+.banner {
+	background: url(../images/banner.png) no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	padding: 5% 0 0% 0;
+    margin-top: 10px;
+	min-height: 450px;
+    text-align: center;
+}
+
+.banner-content {
+    max-width: 100%; /* Максимальная ширина контента */
+    margin: 0 auto; /* Центрирование по горизонтали */
+}
+
+.banner-content h1 {
+    font-size: 64px;
+    color: #fff; /* Цвет текста заголовка */
+    margin-bottom: 15px;
+}
+
+.banner-content h2 {
+    font-size: 24px;
+    color: #fff; /* Цвет текста подзаголовка */
+    margin-top: 15px;
+}
+
+.intro_offer {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.offer1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.offer img {
+    max-width: 400px;
+}
+
+.offer1 img {
+    max-width: 400px;
+}
+
+.offer h1,
+.offer1 h1 {
+    margin: 0;
+    font-size: x-large;
+}
+.offer h2,
+.offer1 h2{
+    font-size: medium;
+    color: #606060;
+}
+
+.offer .button,
+.offer1 .button {
+    margin-top: 10px;
+}
+
+.offer, .offer1 {
+    display: flex;
+    align-items: center;
+}
+
+.offer .text, .offer1 .text {
+    flex: 1;
+    max-width: 200;
+}
+
+.normal-text {
+    font-weight: normal;
+}
+
+.offer .image, .offer1 .image {
+    margin-left: 20px; /* Просто для отступа между изображением и текстом */
+
+}
+
+.offer1 {
+    display: flex;
+    align-items: center;
+}
+
+.offer1 .text {
+
+    margin-right: auto; 
+    order: 1;
+    text-align: right;
+}
+
+.offer1 .image {
+    order: 2; 
+    margin-left: auto; 
+    text-align: left;
+}
+
+.offer .text {
+
+
+    order: 1;
+    text-align: left;
+}
+
+.offer .image {
+    order: 2; 
+    margin-left: auto; 
+    text-align: right;
+}
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 250px)); /* Каждая колонка минимум 200px шириной */
+    gap: 20px; /* Пространство между блоками */
+    margin-left: 50;
+    margin-right: 50;
+}
+
+.partner {
+    border: 1px solid #ccc; /* Граница для блока */
+    padding: 20px; /* Отступы внутри блока */
+    text-align: center; /* Выравнивание текста по центру */
+    background: linear-gradient(#ececec, #fffefe);
+    border-radius: 30px;
+}
+
+.category, .button {
+    margin-top: 10px; /* Отступ между элементами в блоке */
+}
+
+
+.image1{
+    display: inline-block;
+    border-radius: 30%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+  }
+  .image1 img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+  }
+
+  .registr {
+    max-width: 400px;
+    margin: 50px auto; /* Центрируем контейнер по горизонтали и добавляем отступ сверху и снизу */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для контейнера */
+}
+
+/* Стили для заголовка */
+.registr h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стили для меток */
+.registr label {
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+/* Стили для полей ввода */
+.registr input {
+    width: calc(100% - 22px); /* Вычитаем ширину бордера, чтобы сохранить общую ширину элемента 100% */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Стили для кнопки */
+.registr button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3E3E3E;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.registr button:hover {
+    background-color: #D27575;
+}
+
+/* Стили для текста после кнопки */
+.registr p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Стили для ссылок */
+.registr a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registr a:hover {
+    text-decoration: underline;
+}
+.personal {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.personal h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.personal .form-group {
+    margin-bottom: 20px;
+}
+
+.personal label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+.personal input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px; /* Добавлен отступ между меткой и полем ввода */
+    
+}
+
+.personal .form-group:first-child input {
+    margin-top: 0; /* Убираем отступ у первого поля ввода */
+}
+
+.calculator {
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.left-half {
+    width: 50%;
+    padding: 20px;
+}
+
+.right-half {
+    width: 50%;
+    padding: 20px;
+    background-color: #FFE8E0;
+    margin-right: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.input-inline {
+    display: inline-block;
+    width: calc(50% - 5px); /* Распределяем половину ширины */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.avoided-ingredients {
+    margin-top: 40px;
+}
+
+.avoided-ingredients h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right-half {
+    width: 50%;
+    padding: 20px;
+    position: relative; /* Добавляем позиционирование для стрелок */
+}
+
+.day-switcher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 40px;
+    cursor: pointer;
+    color: #777777;
+
+}
+
+.meal-block {
+    margin-bottom: 30px;
+}
+
+.meal-block h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.meal-details, .meal-details2, .meal-details3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.meal-details {
+    background-color: #FBE6A2;
+}
+
+.meal-details2 {
+    background-color: #FBD7AE;
+}
+
+.meal-details3 {
+    background-color: #FABEBE;
+}
+
+.meal-part {
+    width: 48%; /* Делим блоки Что входит и Описание пополам */
+    background-color: #fffece;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.meal-part1 {
+    width: 48%; /* Делим блоки Что входит и Описание пополам */
+}
+
+.food-item, .nutrient {
+    margin-bottom: 5px;
+}
+
+.food-item {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.food-item p{
+    margin: 5px;
+
+}
+
+.change-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.change-button:hover {
+    background-color: #0056b3;
+}
+
+.left-arrow {
+    margin-right: auto;
+}
+
+.right-arrow {
+    margin-left: auto;
+}
+
+.right-half h2 {
+    justify-content: center;
+}
+
+.day-label {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0; /* Убрали нижний отступ */
+}
+
+.label h1{
+    font-size: 64;
+}
+.label {
+    align-items: center;
+}
+
+.rigth-botton-calc{
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-half {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.avoided-ingredients {
+    margin-bottom: 20px;
+}
+
+.avoided-ingredients h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+    margin: 0 10px;
+}
+
+.ingredients {
+        display: flex;
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        max-width: 500px;
+        max-height: 200px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+}
+
+.ingredient {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    position: relative;
+}
+
+.ingredient img {
+
+    object-fit: cover;
+    border-radius: 5px;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.remove {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(255, 0, 0, 0.7);
+    color: #fff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.add {
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 24px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add:hover, .arrow:hover {
+    background: #0056b3;
+    color: #fff;
+}
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-section, .soups-section, .dishes-section {
+    margin-bottom: 40px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.slider .categories {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.slider .categories img {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #007bff;
+}
+
+.products-list {
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.product-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.product-image {
+    flex: 1;
+}
+
+.product-image img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.product-info {
+    flex: 2;
+    padding: 0 10px;
+}
+
+.product-description {
+    flex: 3;
+    padding: 0 10px;
+}
+
+.product-info h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.product-info h2 {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.product-description p {
+    margin: 0;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
